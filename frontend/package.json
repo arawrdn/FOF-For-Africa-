@@ -1,0 +1,22 @@
+{
+  "name": "fof-for-africa-dapp",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "ethers": "^5.7.2",
+    "@reown/walletkit": "^1.0.0",
+    "@walletconnect/ethereum-provider": "^2.10.3",
+    "@walletconnect/utils": "^2.10.3",
+    "@walletconnect/web3wallet": "^1.8.1",
+    "@walletconnect/core": "^2.10.3"
+    // Note: Some of these WalletConnect libs might be implicitly bundled by @reown/walletkit 
+    // but are listed here as requested.
+  }
+}
