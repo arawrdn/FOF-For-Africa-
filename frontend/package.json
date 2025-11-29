@@ -16,7 +16,5 @@
     "@walletconnect/utils": "^2.10.3",
     "@walletconnect/web3wallet": "^1.8.1",
     "@walletconnect/core": "^2.10.3"
-    // Note: Some of these WalletConnect libs might be implicitly bundled by @reown/walletkit 
-    // but are listed here as requested.
   }
 }
